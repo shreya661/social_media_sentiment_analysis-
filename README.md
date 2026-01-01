@@ -1,90 +1,50 @@
-project:
-  title: Social Media Sentiment Analysis
+# Social Media Sentiment Analysis
 
-  description: >
-    This project focuses on analyzing social media data to understand how people
-    feel about different posts. The main goal is to identify whether the sentiment
-    of posts is positive or negative and to present the results using simple and
-    interactive visualizations.
-    This project was built to improve my understanding of Python, data analysis,
-    and data visualization concepts at a beginner level.
+## Project Overview
+A begineer-social media sentiment analysis this project explores how people react based on the post like positive and neative sentiments using python and simple visulization. 
+1.This project focuses on the social media data to understand user sentiment across different platform.
+2.The main purpose of this project is to practise pythonwith data analysis and data visulizations concepts.
+3.In this project uses basic python library like matplotlib,pandas,numpy,seaborn,etc., help to interact with dataset
+4.The dataset is take from kaggle :https://www.kaggle.com/datasets/kashishparmar02/social-media-sentiments-analysis-dataset/data
 
-  table_of_contents:
-    - Description
-    - Installation Instructions
-    - Usage
-    - Features
-    - Data Sources
-    - Methodology
-    - Insights and Results
-    - Visualizations
-    - Contributions
-    - Conclusion
+## Objectives 
+1. Understand how sentiment analysis works on social media data.
+2. Analyze the distribution of postive and negative tweents fromt the data.
+3. Compare user activity across different social media platforms
+4. Visualize insights using charts and graphs
+5. Improve hands-on skills in Python and data analysis
 
-  installation:
-    prerequisites:
-      - Python (basic knowledge)
-      - Jupyter Notebook
-      - Pandas
-      - Plotly
+## Technologies Used
+- Python – for data processing and analysis
+- Pandas – for data manipulation
+- Plotly – for interactive visualizations
+- Matplotlib – for basic charts
+- Jupyter Notebook – for development and execution
 
-    steps:
-      - step: Clone the repository
-        command: git clone https://github.com/shreya661/sentiment-analysis-project.git
-      - step: Open the project folder
-      - step: Install required libraries
-        command: pip install pandas plotly
-      - step: Open the Jupyter Notebook and run the cells
+## Visulizations 
+###  Platform per sentiment 
+"C:\Users\patha\Downloads\newplot (3).png"
+### Top 5 countries number of posts 
+"C:\Users\patha\Downloads\newplot.png"
+###  Likes vs Retweets  
+"C:\Users\patha\Downloads\newplot (4).png"
+###  Overall sentiment distribution   
+"C:\Users\patha\Downloads\newplot (2).png"
+### Posts per platforn 
+"C:\Users\patha\Downloads\newplot (1).png"
 
-  usage:
-    - Load and clean the dataset using the Jupyter Notebook
-    - Analyze sentiment data based on platforms and countries
-    - Generate visualizations such as bar charts and pie charts
-    - View interactive graphs in the browser or exported HTML files
+## Key Insights
+- Positive sentiment appears more frequently than negative sentiment  
+- Some platforms show higher user activity  
+- A few countries contribute most of the social media posts
 
-  features:
-    - Beginner-level sentiment analysis
-    - Platform-wise post comparison
-    - Interactive visualizations using Plotly
-    - Easy-to-understand workflow for learning purposes
+- 
+"C:\Users\patha\Downloads\newplot (1).png"
 
-  data_sources:
-    description: >
-      The dataset used in this project was collected from a PDF file and converted
-      into a structured format for analysis.
-    data_fields:
-      - Social media platform names
-      - Country information
-      - Sentiment labels (Positive / Negative)
-      - Hashtags
-      - Post content
-    note: The dataset is used only for practice and learning purposes.
 
-  methodology:
-    - Data cleaning and preprocessing using Pandas
-    - Grouping and counting sentiment values
-    - Visualizing insights using bar charts and pie charts
-    - No advanced machine learning techniques are used
 
-  insights_and_results:
-    - Identified overall sentiment trends across platforms
-    - Observed differences in user engagement between platforms
-    - Visualized how users react to different types of social media content
 
-  visualizations:
-    - name: Sentiment Distribution
-      image: images/sentiment_distribution.png
-    - name: Platform-wise Analysis
-      image: images/platform_analysis.png
 
-  contributions:
-    welcome: true
-    guidelines:
-      - Fork the repository
-      - Create a new branch
-      - Submit a pull request
 
-  conclusion: >
-    This project helped me understand how sentiment analysis works on real-world
-    social media data and how insights can be clearly presented using data
-    visualization techniques.
+
+
